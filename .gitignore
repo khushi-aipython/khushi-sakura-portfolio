@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.log
+.env*
+
+# Keep the template file tracked; never commit real environment files.
+!/.env.example
+
+.vercel
